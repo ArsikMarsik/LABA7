@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <title>Дженнифер Кулидж - Основная информация</title>
+    <style>
+        body {
+            background-color: #f1ddec;
+            font-family: 'Roboto', sans-serif;
+            color: #000000;
+        }
+
+        nav {
+            background: linear-gradient(90deg, #ff6f61, #de6262);
+            color: rgb(255, 223, 223);
+        }
+
+        .navbar-brand {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: rgb(252, 166, 166);
+            font-weight: 500;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffeb3b;
+        }
+
+        #actorCarousel {
+            margin-bottom: 30px;
+        }
+
+        .carousel-item img {
+            height: auto px;
+            object-fit: cover;
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            color: #de6262;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #fce1e1;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #ff6f61;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #de6262;
+        }
+
+        .collapse {
+            background-color: #f1f1f1;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #ff6f61;
+            color: rgb(242, 251, 255);
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Дженнифер Кулидж</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="actorCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Дженнифер.jpg" class="d-block w-100" alt="Дженнифер Кулидж 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Дженнифер2.jpg" class="d-block w-100" alt="Дженнифер Кулидж 2">
+            </div>
+            <div class="carousel-item">
+                <img src="дженифер.jpg" class="d-block w-100" alt="Дженнифер Кулидж 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+    <div class="container mt-5" id="films">
+        <h2>Фильмы с Дженнифер Кулидж</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="блондинка в законе.jpg" class="card-img-top" alt="Блондинка в законе">
+                    <div class="card-body">
+                        <h5 class="card-title">Блондинка в законе (2001)</h5>
+                        <p class="card-text">Элл Вудс, уверенная в себе блондинка, отправляется в юридическую школу, чтобы вернуть своего парня.</p>
+                        <a href="https://www.kinopoisk.ru/film/735/?utm_referrer=yandex.ru" target="_blank" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="секс в большом городе.jpg" class="card-img-top" alt="Секс в большом городе">
+                    <div class="card-body">
+                        <h5 class="card-title">Секс в большом городе (1998-2004)</h5>
+                        <p class="card-text">Интимные будни четырех модниц с Манхэттена. Сериал, заменивший миллионам женщин стилиста, психолога и подруг.</p>
+                        <a href="https://www.kinopoisk.ru/series/77042/" target="_blank" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Белый лотос.png" class="card-img-top" alt="Белый лотос">
+                    <div class="card-body">
+                        <h5 class="card-title">Белый лотос (2021)</h5>
+                        <p class="card-text">Секс, интриги, убийство — в роскошном отеле. Один из лучших сериалов HBO последних лет.</p>
+                        <a href="https://www.kinopoisk.ru/series/2000461/" target="_blank" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container mt-5">
+            <h2>Краткая информация об актрисе</h2>
+            <button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
+                Показать/Скрыть информацию
+            </button>
+            <div class="collapse mt-2" id="collapseInfo">
+                <div class="card card-body">
+                    <p>Родилась: 28 августа 1961 года, Бостон, Массачусетс, США</p>
+                    <p>Учёба: Мичиганский университет</p>
+                    <p>Личная жизнь: Дженнифер известна своими ролями в комедийных фильмах и телесериалах, она также активно занимается поддержкой различных благотворительных организаций.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container mt-5">
+            <h3>Содержание</h3>
+            <ul class="nav flex-column" id="navbar">
+                <li class="nav-item">
+                    <a class="nav-link" href="#actorCarousel">Карусель</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#films">Карточки с фильмами</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#collapseInfo">Краткая информация</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Дженнифер Кулидж. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

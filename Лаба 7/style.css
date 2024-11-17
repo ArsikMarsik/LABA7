@@ -1,0 +1,109 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(120deg, #FF6F61, #D45D00);
+}
+
+.navbar a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3b3b3b;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #FF6F61;
+    margin: 10px auto;
+}
+
+.row.mb-4 {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.p-3 {
+    background-color: #e2f7e8;
+    border-left: 5px solid #4CAF50;
+}
+
+.table th {
+    background-color: #FF8F00;
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #ffeb3b;
+    color: #333;
+}
+
+.table-responsive {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+    opacity: 0.9;
+}
+
+.btn {
+    background-color: #FF6F61;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #D45D00;
+}
